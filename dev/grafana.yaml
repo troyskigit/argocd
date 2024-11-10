@@ -63,7 +63,7 @@ spec:
             - mountPath: /var/lib/grafana
               name: grafana-pv
       volumes:
-        - name: grafana-pv
+        - name: my-pv
           persistentVolumeClaim:
             claimName: grafana-pvc
 ---
